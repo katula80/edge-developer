@@ -514,6 +514,13 @@ This section is for reference.
 
 For help about a property, click a property row.  Help is shown at the bottom of the dialog.
 
+Some additional properties can be configured from the project file or its imported `.targets`/`.props` files. For more information about project properties, see [Property element (MSBuild)](https://docs.microsoft.com/en-us/visualstudio/msbuild/property-element-msbuild?view=vs-2022).
+
+| Property | Description |
+|---|---|
+| `WV2WinRTAdditionalParameters` | Extra parameters to use when running wv2winrt.exe as part of the build. For example, setting this property to `--verbose` will enable detailed output from the tool. |
+| `WV2WinRTCommandPrefix` | Prefix to use when running wv2winrt.exe as part of the build. Use this property if your build environment requires executables to run under the context of a command launcher. |
+
 Command-line help contains similar information for the parameters of `wv2winrt.exe`.  For example:
 
 | Parameter | Description |
