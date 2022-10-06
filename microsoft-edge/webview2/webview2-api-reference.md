@@ -6,7 +6,7 @@ ms.author: msedgedevrel
 ms.topic: conceptual
 ms.prod: microsoft-edge
 ms.technology: webview
-ms.date: 08/03/2022
+ms.date: 10/06/2022
 ---
 # WebView2 API Reference
 
@@ -29,6 +29,7 @@ WebView2 is available for the following frameworks (or platforms) and programmin
 
 * [Win32/C++](/microsoft-edge/webview2/reference/win32/index)
 
+* [JavaScript](/microsoft-edge/webview2/reference/javascript/overview)
 
 <!-- ====================================================================== -->
 ## See also
